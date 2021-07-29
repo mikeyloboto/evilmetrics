@@ -14,5 +14,6 @@
 
     <root level="${logger.level:-INFO}">
         <appender-ref ref="FILE" />
+        <appender-ref ref="stdout" />
     </root>
 </configuration>
