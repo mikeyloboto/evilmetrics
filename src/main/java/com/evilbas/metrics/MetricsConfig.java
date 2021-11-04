@@ -10,7 +10,7 @@ import io.micrometer.core.instrument.MeterRegistry;
 @Configuration
 @PropertySource("classpath:metrics.properties")
 // @PropertySource("classpath:application.yml")
-@PropertySource("file:${APPLICATION_EXT_PROPERTIES}/shared/eureka.properties")
+// @PropertySource("file:${APPLICATION_EXT_PROPERTIES}/shared/eureka.properties")
 public class MetricsConfig {
     public static String test() {
         return "Success";
